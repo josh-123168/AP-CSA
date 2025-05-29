@@ -22,9 +22,9 @@ public class CompoundOperators
     numPeople ++;
     
     System.out.println("I have "+ myYears + " years in school and " + (gradYear - myYears) + " years left to gradutate.");
-    System.out.println("Bro has "+ broYears + " years in school.");
-    System.out.println("Fern has "+ fernYears + " years in school.");
-    System.out.println("Mom has "+ momYears + " years in school.");
+    System.out.println("Bro has "+ broYears + " years in school and " + (gradYear - broYears) + " years left to gradutate.");
+    System.out.println("Fern has "+ fernYears + " years in school and " + (gradYear - fernYears) + " years left to gradutate.");
+    System.out.println("Mom has "+ momYears + " years in school and has already graduated.");
 
     System.out.print("Total people: " + numPeople);
     System.out.println(", total years: " + totalYears);
