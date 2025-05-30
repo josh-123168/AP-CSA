@@ -6,8 +6,8 @@ public class TestingPrints
         System.out.println("without using println statements?");
         System.out.println("(the newline character will be useful)");
 
-        System.out.print("Can you duplicate this exact message \n");
-        System.out.print("without using println statements? \n");
-        System.out.print("(the newline character will be useful) \n");
+        System.out.print("Can you duplicate this exact message\n");
+        System.out.print("without using println statements?\n");
+        System.out.print("(the newline character will be useful)\n");
     }
 }
