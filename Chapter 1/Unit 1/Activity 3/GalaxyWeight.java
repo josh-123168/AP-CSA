@@ -22,7 +22,7 @@ public class GalaxyWeight
         System.out.print("Your weight on Uranus is ");
         System.out.println(weightOnUranus);
         System.out.print("Average weight: ");
-        System.out.println(weightOnVenus * weightOnMars * weightOnUranus / 3);
+        System.out.println((weightOnVenus + weightOnMars + weightOnUranus) / 3);
 
     }
 }
