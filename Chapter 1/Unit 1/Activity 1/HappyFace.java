@@ -1,4 +1,5 @@
-public class HappyFace {
+public class HappyFace
+{
     public static void main(String[] args)
     {
         System.out.println("-----------");
