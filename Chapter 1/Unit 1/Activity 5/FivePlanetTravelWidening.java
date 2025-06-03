@@ -31,7 +31,8 @@ public class FivePlanetTravelWidening
         double total = mercuryCalc + venusCalc + marsCalc + jupiterCalc + saturnCalc;
         int numPlanets = 5;
 
-        int average = (int) total / numPlanets;
+
+    int average = (int) (total + 0.5) / numPlanets;
 
         System.out.println("Travel time to Mercury: " + mercuryCalc + " hours.");
         System.out.println("Travel time to Venus: " + venusCalc + " hours.");
@@ -39,6 +40,6 @@ public class FivePlanetTravelWidening
         System.out.println("Travel time to Jupiter: " + jupiterCalc + " hours.");
         System.out.println("Travel time to Saturn: " + saturnCalc + " hours.");
 
-        System.out.println("Average travel time: " + average);
-    }
+        System.out.println("Average travel time: " + average + " hours.");
+  }
 }

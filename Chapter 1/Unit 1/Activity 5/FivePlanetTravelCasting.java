@@ -1,6 +1,7 @@
 /* 
  * Activity 1.1.5
  */
+
 public class FivePlanetTravelCasting
 {
     public static void main(String[] args)
