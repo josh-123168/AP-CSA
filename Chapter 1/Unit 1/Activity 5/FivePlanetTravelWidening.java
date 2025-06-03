@@ -1,10 +1,8 @@
 /* 
  * Activity 1.1.5
  */
-public class FivePlanetTravelWidening
-{
-  public static void main(String[] args)
-  {
+public class FivePlanetTravelWidening {
+  public static void main(String[] args) {
     // theplanets.org average distance from earth to the planets
     int mercury = 56974146;
     int venus = 25724767;
@@ -13,7 +11,7 @@ public class FivePlanetTravelWidening
     int saturn = 792248270;
 
     // speed of light and our speed
-    int lightSpeed =  670616629;
+    int lightSpeed = 670616629;
     lightSpeed /= 10;
 
     /* your code here */
@@ -31,7 +29,7 @@ public class FivePlanetTravelWidening
     double total = mercuryCalc + venusCalc + marsCalc + jupiterCalc + saturnCalc;
     int numPlanets = 5;
 
-    int average = (int) total / numPlanets;
+    int average = (int) (total + 0.5) / numPlanets;
 
     System.out.println("Travel time to Mercury: " + mercuryCalc + " hours.");
     System.out.println("Travel time to Venus: " + venusCalc + " hours.");
@@ -39,6 +37,6 @@ public class FivePlanetTravelWidening
     System.out.println("Travel time to Jupiter: " + jupiterCalc + " hours.");
     System.out.println("Travel time to Saturn: " + saturnCalc + " hours.");
 
-    System.out.println("Average travel time: " + average);
+    System.out.println("Average travel time: " + average + " hours.");
   }
 }

@@ -1,10 +1,8 @@
 /* 
  * Activity 1.1.5
  */
-public class FivePlanetTravelCasting
-{
-  public static void main(String[] args)
-  {
+public class FivePlanetTravelCasting {
+  public static void main(String[] args) {
     // theplanets.org average distance from earth to the planets
     int mercury = 56974146;
     int venus = 25724767;
@@ -13,7 +11,7 @@ public class FivePlanetTravelCasting
     int saturn = 792248270;
 
     // speed of light and our speed
-    int lightSpeed =  670616629;
+    int lightSpeed = 670616629;
     lightSpeed /= 10;
 
     /* your code here */
